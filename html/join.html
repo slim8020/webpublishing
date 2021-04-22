@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+</head>
+<body>
+    <h1>회원 가입을 환영합니다.</h1>
+    <form>
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li><label for="user_id">아이디: <input type="text" id="user_id" size="10"></label></li>
+                <li><label for="user_mail">이메일: <input type="email" id="user_mail" size="10"></label></li>
+                <li><label for="user_pw">비밀번호: <input type="password" id="user_pw" size="10"></label></li>
+                <li><label for="user_confirm">비밀번호 확인: <input type="password" id="user_confirm" size="10"></label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <label for="yes"><input type="radio" name="mailing" id="yes" checked="checked">메일 수신</label>
+            <label for="no"><input type="radio" name="mailing" id="no">메일 수신 안함</label>
+        </fieldset>
+        <div id="buttons">
+            <input type="submit" value="가입하기">
+            <input type="reset" value="취소">
+        </div>
+    </form>
+</body>
+</html>
