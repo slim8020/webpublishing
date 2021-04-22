@@ -11,9 +11,14 @@
 <body>
     <form action="">
         <fieldset>
-            <label>아이디: <input type="text" id="user_id" size="10" required></label>
+            <label>아이디: <input type="text" id="user_id" size="10" placeholder="아이디를 입력하세요." autofocus required></label>
             <label>비밀번호: <input type="password" id="user_pw" size="10" required></label>
-            <input type="submit" value="로그인">
+            <input type="image" src="/assets/images/login.png" alt="로그인">
+        </fieldset>
+        <fieldset>
+            <legend>공지사항</legend>
+            <input type="button" value="공지" onclick="window.open('page.html')">
+            <input type="file">
         </fieldset>
         <fieldset>
             <legend>상품 선택</legend>
@@ -43,6 +48,13 @@
                     <input type="number" min="0" max="5" value="1">개 (최대 5개)
                 </li>
             </ul>
+
+            <select id="Product1">
+                <option value="special_3" selected>선물용 3kg</option>
+                <option value="special_5" selected>선물용 5kg</option>
+                <option value="family_3" selected>가정용 3kg</option>
+                <option value="family_3" selected>가정용 5kg</option>
+            </select>
             <p><b>포장 선택</b></p>
             <label><input type="radio" name="gift" value="yes" checked="checked">선물 포장</label>
             <label><input type="radio" name="gift" value="no"">선물 포장 안함</label>
@@ -66,6 +78,10 @@
                 <label for="phone">연락처</label>
                 <input type="tel" id="phone">
             </li>
+            <li>
+                <label for="memo">요청사항</label>
+                <textarea id="memo" cols="40" rows="4" placeholder="요청사항을 입력해주세요."></textarea>
+            </li>
         </ul>
         </fieldset>
         <fieldset>
@@ -74,6 +90,8 @@
             <label>시간: <input type="datetime-local"></label>
             
         </fieldset>
+
+
     </form>
 </body>
 

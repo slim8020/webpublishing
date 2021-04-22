@@ -16,6 +16,15 @@
                 <li><label for="user_mail">이메일: <input type="email" id="user_mail" size="10"></label></li>
                 <li><label for="user_pw">비밀번호: <input type="password" id="user_pw" size="10"></label></li>
                 <li><label for="user_confirm">비밀번호 확인: <input type="password" id="user_confirm" size="10"></label></li>
+                <li><label for="path">가입 경로: 
+                    <select id="path">
+                        <option value="blog">블로그</option>
+                        <option value="search">검색</option>
+                        <option value="sns">SNS</option>
+                        <option value="etc">기타</option>
+                    </select>
+                </label></li>
+                <li><label for="memo">메모: <textarea cols="40" rows="4" placeholder="메모를 남겨주세요."></textarea></li>
             </ul>
         </fieldset>
         <fieldset>
@@ -24,7 +33,7 @@
             <label for="no"><input type="radio" name="mailing" id="no">메일 수신 안함</label>
         </fieldset>
         <div id="buttons">
-            <input type="submit" value="가입하기">
+            <button type="submit">가입하기</button>
             <input type="reset" value="취소">
         </div>
     </form>
