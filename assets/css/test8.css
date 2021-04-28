@@ -1,0 +1,38 @@
+#container{
+    width: 790px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: small;
+}
+
+#a1{
+    float : left;  
+}
+#a2{
+    float : left;  
+}
+#a3{ 
+    float : left; 
+}
+#a4{
+    float : left;  
+}
+
+article{
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 200px;
+    margin : 10px 10px 10px 10px;
+    padding : 10px 10px 10px 10px;
+}
+
+footer{
+    width:100%;
+    height:60px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    clear : left;
+}
