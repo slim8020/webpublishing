@@ -1,0 +1,30 @@
+#container{
+    width: 1200px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: url('../images/bg4.jpg') no-repeat left top;
+    float :left;
+    border: 1px solid #000;
+}
+
+#bg1{
+  background-size: auto;  
+}
+#bg2{
+  background-size: 200px;
+}
+#bg3{
+  background-size: 50%;
+}
+#bg4{
+  background-size: 100% 100%;
+}
+#bg5{
+  background-size: contain;
+}
+#bg6{
+  background-size: cover;
+}
