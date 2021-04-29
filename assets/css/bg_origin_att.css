@@ -1,0 +1,28 @@
+body{
+    /* background-image: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background: url('../images/bg2.png') no-repeat right top fixed;
+}
+div{
+    width:300px;
+    height:300px;
+    border: 50px solid #ccc;
+    padding: 50px 50px;
+    background-image: url('../images/bg3.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#bg1{
+    background-origin: padding-box;
+}
+
+#bg2{
+    background-origin: border-box;
+}
+
+#bg3{
+    background-origin: content-box;
+}
