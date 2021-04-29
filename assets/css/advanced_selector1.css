@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+#signup label{
+    font-size: 13px;
+    width: 110px;
+    float:left;
+}
+
+#signup fieldset{
+    padding:2px;
+    margin:10px;
+}
+
+#signup ul li{
+    padding: 5px;
+    margin:10px;
+}
+
+#signup button{
+    display: block;
+    border-radius: 20px;
+    margin:auto;
+    padding: 7px 25px;
+
+}
