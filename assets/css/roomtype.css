@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+}
+
+#signup{
+    width: 960px;
+    border: 1px solid #000;
+    margin:auto;
+}
+
+#signup #info label{
+    float:left;
+    width:110px;
+}
+
+#signup input:checked + label{
+    color:red;
+    font-weight:bold;
+}
+
+/* #signup input[type=text], input[type=tel]{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+} */
+#signup input[type=text], input[type=tel]{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+}
+
+#submit{
+    border: none;
+}
