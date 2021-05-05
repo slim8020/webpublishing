@@ -1,0 +1,16 @@
+#container{
+    border: 1px solid #000;
+    width : 100%;
+    height : 300px;
+}
+
+img{
+    margin : 20px 20px;
+    padding : 20px 20px;
+    box-shadow: 1px 1px 2px #000;
+}
+
+img:first-of-type{
+    border: 2px solid #f00;
+    
+}

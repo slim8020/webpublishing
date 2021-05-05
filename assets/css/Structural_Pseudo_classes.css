@@ -1,0 +1,16 @@
+
+#container{
+    width : 800px;
+    border: 1px solid #000;
+}
+.contents{
+    padding: 10px;
+    margin:auto;
+}
+.contents :nth-child(3){
+    background-color: #ffff00;
+}
+
+.contents p:nth-of-type(3){
+    background-color: #00b900;
+}

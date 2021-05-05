@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.menu {
+    margin: 50px auto;
+    padding:0;
+    width:605px;
+    height:35px;
+    box-shadow: 0 3px 4px #8b8b8b;
+    background-color: #dadada;
+    list-style: none;
+}
+
+.menu li{
+    float:left;
+    border-right: 1px solid #929292;
+}
+
+.menu li a:link{
+    color:#000;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    width: 100px;
+    height:35px;
+    line-height:35px;
+}
+
+.menu li:last-child{
+    border-right:none;
+}
+
+.menu li:not(:last-child) a:hover{
+    background-color: #555;
+    color: #fff;
+}
+
+.menu li:last-child a:hover{
+    background-color: #b30000;
+    color:#fff;
+}
