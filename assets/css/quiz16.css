@@ -1,0 +1,14 @@
+img{
+    box-shadow: 10px 10px 10px #000;
+    border-radius: 50%;
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    from {transform: perspective(500px) rotateY(0deg);}
+    50% {transform: perspective(500px) rotateY(90deg);}
+    to {transform: perspective(500px) rotateY(180deg);}
+}

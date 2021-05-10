@@ -1,0 +1,52 @@
+.origin{
+    width: 100px;
+    height: 100px;
+    float:left;
+    border: 1px solid #000;
+    margin: 30px;
+}
+
+.test{
+    float:left;
+    text-align: center;
+}
+
+.origin > div{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+
+#movex:hover{
+    transform: translateX(20px);
+}
+#movey:hover{
+    transform: translateY(20px);
+}
+#movexy:hover{
+    transform: translate(20px, 20px);
+}
+#scalex:hover{
+    transform: scaleX(2);
+}
+#scaley:hover{
+    transform: scaleY(1.5);
+}
+#scalexy:hover{
+    transform: scale(0.7);
+}
+
+#rotate1:hover{
+    transform: rotate(40deg);
+}
+#rotate2:hover{
+    transform: rotate(-30deg);
+}
+
+.rotatex:hover{
+    transform: rotateX(50deg);
+}
+
+#pers{
+    perspective: 200px;
+}

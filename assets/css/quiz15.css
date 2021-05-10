@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.menubar{
+    list-style-type: none;
+}
+
+.menubar .item{
+    width: 100px;
+    height: 40px;
+    box-shadow: 1px 1px 2px #000;
+    background-color: #ccc;
+    float:left;
+}
+
+.menubar .item a{
+    height: 40px;
+    line-height: 40px;
+    color:#000;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display:block;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.menubar .item a:hover{
+    background-color: #444;
+    color:#fff;
+}
