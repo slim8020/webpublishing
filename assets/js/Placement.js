@@ -8,7 +8,6 @@ for(var i=1; i<=seat; i++)
     if(i % col === 1){ 
         document.write("<tr>");
     }
-
     document.write("<td>좌석" + i + "</td>");
     if(i % col === 0){ 
         document.write("</tr>");
