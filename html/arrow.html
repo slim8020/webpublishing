@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        /*일반 함수 */
+        // let hi="";
+        // function abc(){
+        //     return "hello!";
+        // }
+        // hi = abc();
+        // document.write(hi);
+
+        /*익명 함수*/
+        // const hi = function(){
+        //     return "hello!";
+        // }
+        // document.write(hi.name);
+
+        /*화살표 함수*/
+        // const hi = () =>{
+        //     return "hello!";
+        // }
+        // document.write(hi.name);
+
+        /*화살표 함수 - 중괄호 생략 */
+        // const hi = () => "hello!";
+        // document.write(hi.name);
+
+        /*즉시실행함수 */
+        // (function abc(user){
+        //     document.write(user + ", What up~");
+        // })("slim8020");
+
+        let hi = user => { document.write(user + ", what up~"); }
+         hi("slim8020");
+
+        // let sum = (a,b) => a+b;
+        // document.write(sum(1,2));
+        
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
